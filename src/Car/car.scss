@@ -1,0 +1,25 @@
+.Car {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+$color: blue;
+
+.input{}
+
+.input.green {
+    border: 2px solid $color;
+}
+
+.input.red {
+    border: 2px solid red;
+}
+
+.input.bold {
+    border: 2px solid green;
+    font-weight: bold;
+}
